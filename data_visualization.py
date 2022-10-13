@@ -6,3 +6,5 @@ y = [0, 1, 4, 16, 25, 36]
 plt.plot(x, y, color = 'green', marker = 'o')
 plt.show()
 plt.clf()
+
+print("I love Eszter very much. She is super cool.")
