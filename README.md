@@ -5,6 +5,8 @@
 2. Visualizing
 3. Styling
 
+## Preliminary Questions:
+
 1. What question do you want answer with your chart?
 2. What is the type of data you want to visualize?
 
