@@ -1,4 +1,5 @@
 from matplotlib import pyplot as plt
+import seaborn as sns
 
 x = [0, 2, 3, 4, 5, 6]
 y = [0, 1, 4, 16, 25, 36]
@@ -197,3 +198,8 @@ b = normal(loc=70, scale=2, size=100000)
 plt.hist(a, range=(55, 75), bins=20, alpha=0.5, normed=True) # 'normed = True' is crucial syntax, here
 plt.hist(b, range=(55, 75), bins=20, alpha=0.5, normed=True)
 plt.show()
+
+# Bar Charts
+
+sns.countplot()
+sns.barplot()
